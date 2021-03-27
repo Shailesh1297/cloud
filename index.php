@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+form {border: 3px solid #f1f1f1; width: 50%;position:relative;left:20%;}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -41,12 +41,13 @@ button:hover {
 }
 
 img.avatar {
-  width: 40%;
+  width: 20%;
   border-radius: 50%;
 }
 
 .container {
   padding: 16px;
+  
 }
 
 span.psw {
@@ -68,11 +69,12 @@ span.psw {
 </head>
 <body>
 
-<h2>Login Form</h2>
+
 
 <form action="/action_page.php" method="post">
+<h2>Login Form</h2>
   <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <img src="lion.png" alt="Avatar" class="avatar" >
   </div>
 
   <div class="container">
